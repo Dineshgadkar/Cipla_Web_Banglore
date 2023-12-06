@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Castrol_DBDataSet" targetNamespace="http://tempuri.org/Castrol_DBDataSet1.xsd" xmlns:mstns="http://tempuri.org/Castrol_DBDataSet1.xsd" xmlns="http://tempuri.org/Castrol_DBDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="12" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="db" IsAppSettingsProperty="true" Modifier="Assembly" Name="db (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.db.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="R101ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="R101ConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.R101ConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="R134" IsAppSettingsProperty="true" Modifier="Assembly" Name="R134 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.R134.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="R101" IsAppSettingsProperty="true" Modifier="Assembly" Name="R101 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.R101.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="ROS1_AuditConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ROS1_AuditConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.ROS1_AuditConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="CF-105" IsAppSettingsProperty="true" Modifier="Assembly" Name="CF-105 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.CF-105.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="RCVD-102" IsAppSettingsProperty="true" Modifier="Assembly" Name="RCVD-102 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.RCVD-102.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="JM-101" IsAppSettingsProperty="true" Modifier="Assembly" Name="JM-101 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.JM-101.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FP-RCVD-300" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FP-RCVD-300 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FP-RCVD-300.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FPFBD120ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="FPFBD120ConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FPFBD120ConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FP_HUMIDIFIERConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="FP_HUMIDIFIERConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FP_HUMIDIFIERConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="AUDITConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="AUDITConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.AUDITConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FTAEConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FTAEConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FTAEConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_FPRCVD300TableAdapter" GeneratorDataComponentClassName="v_FPRCVD300TableAdapter" Name="v_FPRCVD300" UserDataComponentName="v_FPRCVD300TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FP-RCVD-300 (Web.config)" DbObjectName="FPRCVD300.dbo.v_FPRCVD300" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT v_FPRCVD300.*
+FROM     v_FPRCVD300</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="MassTempAct" DataSetColumn="MassTempAct" />
+              <Mapping SourceColumn="VacuumPressureAct" DataSetColumn="VacuumPressureAct" />
+              <Mapping SourceColumn="RPMAct" DataSetColumn="RPMAct" />
+              <Mapping SourceColumn="RPMSet" DataSetColumn="RPMSet" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="PDS_SectionNo" DataSetColumn="PDS_SectionNo" />
+              <Mapping SourceColumn="PDS_pageNo" DataSetColumn="PDS_pageNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+              <Mapping SourceColumn="StepNumber" DataSetColumn="StepNumber" />
+              <Mapping SourceColumn="Initial_Drying_temp_set" DataSetColumn="Initial_Drying_temp_set" />
+              <Mapping SourceColumn="Drying_Temp_set" DataSetColumn="Drying_Temp_set" />
+              <Mapping SourceColumn="Initial_Drying_vacuum_set" DataSetColumn="Initial_Drying_vacuum_set" />
+              <Mapping SourceColumn="Drying_Vacuum_set" DataSetColumn="Drying_Vacuum_set" />
+              <Mapping SourceColumn="INITIAL_DRYING_TEMP_SET_1" DataSetColumn="INITIAL_DRYING_TEMP_SET_1" />
+              <Mapping SourceColumn="DRYING_TEMP_SET_1" DataSetColumn="DRYING_TEMP_SET_1" />
+              <Mapping SourceColumn="DRYING_VACUUM_SET_1" DataSetColumn="DRYING_VACUUM_SET_1" />
+              <Mapping SourceColumn="INITIAL_DRYING_VACUUM_SET_1" DataSetColumn="INITIAL_DRYING_VACUUM_SET_1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_FPFBD120TableAdapter" GeneratorDataComponentClassName="v_FPFBD120TableAdapter" Name="v_FPFBD120" UserDataComponentName="v_FPFBD120TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FPFBD120ConnectionString (Web.config)" DbObjectName="FPFBD120.dbo.v_FPFBD120" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT v_FPFBD120.*
+FROM     v_FPFBD120</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="BatchEnd" DataSetColumn="BatchEnd" />
+              <Mapping SourceColumn="BatchStart" DataSetColumn="BatchStart" />
+              <Mapping SourceColumn="InletTempAct" DataSetColumn="InletTempAct" />
+              <Mapping SourceColumn="InletTempLowerLim" DataSetColumn="InletTempLowerLim" />
+              <Mapping SourceColumn="InletTempSet" DataSetColumn="InletTempSet" />
+              <Mapping SourceColumn="InletTempUpperLim" DataSetColumn="InletTempUpperLim" />
+              <Mapping SourceColumn="OutletTempAct" DataSetColumn="OutletTempAct" />
+              <Mapping SourceColumn="OutletTempSet" DataSetColumn="OutletTempSet" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="RecipeName" DataSetColumn="RecipeName" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+              <Mapping SourceColumn="StepNumber" DataSetColumn="StepNumber" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vHUMIDIFIERTableAdapter" GeneratorDataComponentClassName="vHUMIDIFIERTableAdapter" Name="vHUMIDIFIER" UserDataComponentName="vHUMIDIFIERTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FP_HUMIDIFIERConnectionString (Web.config)" DbObjectName="FP_HUMIDIFIER.dbo.vHUMIDIFIER" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT vHUMIDIFIER.*
+FROM     vHUMIDIFIER</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="HUMIDIFIER_RH" DataSetColumn="HUMIDIFIER_RH" />
+              <Mapping SourceColumn="HUMIDIFIER_TEMP" DataSetColumn="HUMIDIFIER_TEMP" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AuditTableAdapter" GeneratorDataComponentClassName="AuditTableAdapter" Name="Audit" UserDataComponentName="AuditTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AUDITConnectionString (Web.config)" DbObjectName="AUDIT.dbo.Audit" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [Audit] ([RecordID], [ParentID], [SequenceNumber], [ChainTime], [TimeStmp], [MessageText], [Audience], [Severity], [Verbosity], [Location], [Provider], [UserID], [UserFullName]) VALUES (@RecordID, @ParentID, @SequenceNumber, @ChainTime, @TimeStmp, @MessageText, @Audience, @Severity, @Verbosity, @Location, @Provider, @UserID, @UserFullName)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@RecordID" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="RecordID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@ParentID" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="ParentID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int16" Direction="Input" ParameterName="@SequenceNumber" Precision="0" ProviderType="SmallInt" Scale="0" Size="0" SourceColumn="SequenceNumber" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@ChainTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ChainTime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@TimeStmp" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="TimeStmp" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@MessageText" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MessageText" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int16" Direction="Input" ParameterName="@Audience" Precision="0" ProviderType="SmallInt" Scale="0" Size="0" SourceColumn="Audience" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int16" Direction="Input" ParameterName="@Severity" Precision="0" ProviderType="SmallInt" Scale="0" Size="0" SourceColumn="Severity" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int16" Direction="Input" ParameterName="@Verbosity" Precision="0" ProviderType="SmallInt" Scale="0" Size="0" SourceColumn="Verbosity" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Location" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Location" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Provider" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Provider" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@UserID" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="UserID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@UserFullName" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="UserFullName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Audit.*
+FROM     Audit</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="RecordID" DataSetColumn="RecordID" />
+              <Mapping SourceColumn="ParentID" DataSetColumn="ParentID" />
+              <Mapping SourceColumn="SequenceNumber" DataSetColumn="SequenceNumber" />
+              <Mapping SourceColumn="ChainTime" DataSetColumn="ChainTime" />
+              <Mapping SourceColumn="TimeStmp" DataSetColumn="TimeStmp" />
+              <Mapping SourceColumn="MessageText" DataSetColumn="MessageText" />
+              <Mapping SourceColumn="Audience" DataSetColumn="Audience" />
+              <Mapping SourceColumn="Severity" DataSetColumn="Severity" />
+              <Mapping SourceColumn="Verbosity" DataSetColumn="Verbosity" />
+              <Mapping SourceColumn="Location" DataSetColumn="Location" />
+              <Mapping SourceColumn="Provider" DataSetColumn="Provider" />
+              <Mapping SourceColumn="UserID" DataSetColumn="UserID" />
+              <Mapping SourceColumn="UserFullName" DataSetColumn="UserFullName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="UDV_EventsTableAdapter" GeneratorDataComponentClassName="UDV_EventsTableAdapter" Name="UDV_Events" UserDataComponentName="UDV_EventsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FTAEConnectionString (Web.config)" DbObjectName="FTAE.dbo.UDV_Events" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT SourceName, EventTimeStamp, Severity, Priority, Message, AlarmClass, Active, Acked, OperatorName, ProductName, BatchNo, Section_StepNo, GroupPath FROM UDV_Events</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SourceName" DataSetColumn="SourceName" />
+              <Mapping SourceColumn="EventTimeStamp" DataSetColumn="EventTimeStamp" />
+              <Mapping SourceColumn="Severity" DataSetColumn="Severity" />
+              <Mapping SourceColumn="Priority" DataSetColumn="Priority" />
+              <Mapping SourceColumn="Message" DataSetColumn="Message" />
+              <Mapping SourceColumn="AlarmClass" DataSetColumn="AlarmClass" />
+              <Mapping SourceColumn="Active" DataSetColumn="Active" />
+              <Mapping SourceColumn="Acked" DataSetColumn="Acked" />
+              <Mapping SourceColumn="OperatorName" DataSetColumn="OperatorName" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+              <Mapping SourceColumn="Section_StepNo" DataSetColumn="Section_StepNo" />
+              <Mapping SourceColumn="GroupPath" DataSetColumn="GroupPath" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Castrol_DBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="False" msprop:Generator_DataSetName="Castrol_DBDataSet" msprop:Generator_UserDSName="Castrol_DBDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_FPRCVD300" msprop:Generator_TableClassName="v_FPRCVD300DataTable" msprop:Generator_TableVarName="tablev_FPRCVD300" msprop:Generator_RowChangedName="v_FPRCVD300RowChanged" msprop:Generator_TablePropName="v_FPRCVD300" msprop:Generator_RowDeletingName="v_FPRCVD300RowDeleting" msprop:Generator_RowChangingName="v_FPRCVD300RowChanging" msprop:Generator_RowEvHandlerName="v_FPRCVD300RowChangeEventHandler" msprop:Generator_RowDeletedName="v_FPRCVD300RowDeleted" msprop:Generator_RowClassName="v_FPRCVD300Row" msprop:Generator_UserTableName="v_FPRCVD300" msprop:Generator_RowEvArgName="v_FPRCVD300RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MassTempAct" msprop:Generator_ColumnVarNameInTable="columnMassTempAct" msprop:Generator_ColumnPropNameInRow="MassTempAct" msprop:Generator_ColumnPropNameInTable="MassTempActColumn" msprop:Generator_UserColumnName="MassTempAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureAct" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureAct" msprop:Generator_ColumnPropNameInRow="VacuumPressureAct" msprop:Generator_ColumnPropNameInTable="VacuumPressureActColumn" msprop:Generator_UserColumnName="VacuumPressureAct" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMAct" msprop:Generator_ColumnVarNameInTable="columnRPMAct" msprop:Generator_ColumnPropNameInRow="RPMAct" msprop:Generator_ColumnPropNameInTable="RPMActColumn" msprop:Generator_UserColumnName="RPMAct" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMSet" msprop:Generator_ColumnVarNameInTable="columnRPMSet" msprop:Generator_ColumnPropNameInRow="RPMSet" msprop:Generator_ColumnPropNameInTable="RPMSetColumn" msprop:Generator_UserColumnName="RPMSet" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PDS_SectionNo" msprop:Generator_ColumnVarNameInTable="columnPDS_SectionNo" msprop:Generator_ColumnPropNameInRow="PDS_SectionNo" msprop:Generator_ColumnPropNameInTable="PDS_SectionNoColumn" msprop:Generator_UserColumnName="PDS_SectionNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PDS_pageNo" msprop:Generator_ColumnVarNameInTable="columnPDS_pageNo" msprop:Generator_ColumnPropNameInRow="PDS_pageNo" msprop:Generator_ColumnPropNameInTable="PDS_pageNoColumn" msprop:Generator_UserColumnName="PDS_pageNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StepNumber" msprop:Generator_ColumnVarNameInTable="columnStepNumber" msprop:Generator_ColumnPropNameInRow="StepNumber" msprop:Generator_ColumnPropNameInTable="StepNumberColumn" msprop:Generator_UserColumnName="StepNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Initial_Drying_temp_set" msprop:Generator_ColumnVarNameInTable="columnInitial_Drying_temp_set" msprop:Generator_ColumnPropNameInRow="Initial_Drying_temp_set" msprop:Generator_ColumnPropNameInTable="Initial_Drying_temp_setColumn" msprop:Generator_UserColumnName="Initial_Drying_temp_set" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Drying_Temp_set" msprop:Generator_ColumnVarNameInTable="columnDrying_Temp_set" msprop:Generator_ColumnPropNameInRow="Drying_Temp_set" msprop:Generator_ColumnPropNameInTable="Drying_Temp_setColumn" msprop:Generator_UserColumnName="Drying_Temp_set" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Initial_Drying_vacuum_set" msprop:Generator_ColumnVarNameInTable="columnInitial_Drying_vacuum_set" msprop:Generator_ColumnPropNameInRow="Initial_Drying_vacuum_set" msprop:Generator_ColumnPropNameInTable="Initial_Drying_vacuum_setColumn" msprop:Generator_UserColumnName="Initial_Drying_vacuum_set" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Drying_Vacuum_set" msprop:Generator_ColumnVarNameInTable="columnDrying_Vacuum_set" msprop:Generator_ColumnPropNameInRow="Drying_Vacuum_set" msprop:Generator_ColumnPropNameInTable="Drying_Vacuum_setColumn" msprop:Generator_UserColumnName="Drying_Vacuum_set" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INITIAL_DRYING_TEMP_SET_1" msprop:Generator_ColumnVarNameInTable="columnINITIAL_DRYING_TEMP_SET_1" msprop:Generator_ColumnPropNameInRow="INITIAL_DRYING_TEMP_SET_1" msprop:Generator_ColumnPropNameInTable="INITIAL_DRYING_TEMP_SET_1Column" msprop:Generator_UserColumnName="INITIAL_DRYING_TEMP_SET_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DRYING_TEMP_SET_1" msprop:Generator_ColumnVarNameInTable="columnDRYING_TEMP_SET_1" msprop:Generator_ColumnPropNameInRow="DRYING_TEMP_SET_1" msprop:Generator_ColumnPropNameInTable="DRYING_TEMP_SET_1Column" msprop:Generator_UserColumnName="DRYING_TEMP_SET_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DRYING_VACUUM_SET_1" msprop:Generator_ColumnVarNameInTable="columnDRYING_VACUUM_SET_1" msprop:Generator_ColumnPropNameInRow="DRYING_VACUUM_SET_1" msprop:Generator_ColumnPropNameInTable="DRYING_VACUUM_SET_1Column" msprop:Generator_UserColumnName="DRYING_VACUUM_SET_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INITIAL_DRYING_VACUUM_SET_1" msprop:Generator_ColumnVarNameInTable="columnINITIAL_DRYING_VACUUM_SET_1" msprop:Generator_ColumnPropNameInRow="INITIAL_DRYING_VACUUM_SET_1" msprop:Generator_ColumnPropNameInTable="INITIAL_DRYING_VACUUM_SET_1Column" msprop:Generator_UserColumnName="INITIAL_DRYING_VACUUM_SET_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_FPFBD120" msprop:Generator_TableClassName="v_FPFBD120DataTable" msprop:Generator_TableVarName="tablev_FPFBD120" msprop:Generator_RowChangedName="v_FPFBD120RowChanged" msprop:Generator_TablePropName="v_FPFBD120" msprop:Generator_RowDeletingName="v_FPFBD120RowDeleting" msprop:Generator_RowChangingName="v_FPFBD120RowChanging" msprop:Generator_RowEvHandlerName="v_FPFBD120RowChangeEventHandler" msprop:Generator_RowDeletedName="v_FPFBD120RowDeleted" msprop:Generator_RowClassName="v_FPFBD120Row" msprop:Generator_UserTableName="v_FPFBD120" msprop:Generator_RowEvArgName="v_FPFBD120RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BatchEnd" msprop:Generator_ColumnVarNameInTable="columnBatchEnd" msprop:Generator_ColumnPropNameInRow="BatchEnd" msprop:Generator_ColumnPropNameInTable="BatchEndColumn" msprop:Generator_UserColumnName="BatchEnd" type="xs:double" minOccurs="0" />
+              <xs:element name="BatchStart" msprop:Generator_ColumnVarNameInTable="columnBatchStart" msprop:Generator_ColumnPropNameInRow="BatchStart" msprop:Generator_ColumnPropNameInTable="BatchStartColumn" msprop:Generator_UserColumnName="BatchStart" type="xs:double" minOccurs="0" />
+              <xs:element name="InletTempAct" msprop:Generator_ColumnVarNameInTable="columnInletTempAct" msprop:Generator_ColumnPropNameInRow="InletTempAct" msprop:Generator_ColumnPropNameInTable="InletTempActColumn" msprop:Generator_UserColumnName="InletTempAct" type="xs:double" minOccurs="0" />
+              <xs:element name="InletTempLowerLim" msprop:Generator_ColumnVarNameInTable="columnInletTempLowerLim" msprop:Generator_ColumnPropNameInRow="InletTempLowerLim" msprop:Generator_ColumnPropNameInTable="InletTempLowerLimColumn" msprop:Generator_UserColumnName="InletTempLowerLim" type="xs:double" minOccurs="0" />
+              <xs:element name="InletTempSet" msprop:Generator_ColumnVarNameInTable="columnInletTempSet" msprop:Generator_ColumnPropNameInRow="InletTempSet" msprop:Generator_ColumnPropNameInTable="InletTempSetColumn" msprop:Generator_UserColumnName="InletTempSet" type="xs:double" minOccurs="0" />
+              <xs:element name="InletTempUpperLim" msprop:Generator_ColumnVarNameInTable="columnInletTempUpperLim" msprop:Generator_ColumnPropNameInRow="InletTempUpperLim" msprop:Generator_ColumnPropNameInTable="InletTempUpperLimColumn" msprop:Generator_UserColumnName="InletTempUpperLim" type="xs:double" minOccurs="0" />
+              <xs:element name="OutletTempAct" msprop:Generator_ColumnVarNameInTable="columnOutletTempAct" msprop:Generator_ColumnPropNameInRow="OutletTempAct" msprop:Generator_ColumnPropNameInTable="OutletTempActColumn" msprop:Generator_UserColumnName="OutletTempAct" type="xs:double" minOccurs="0" />
+              <xs:element name="OutletTempSet" msprop:Generator_ColumnVarNameInTable="columnOutletTempSet" msprop:Generator_ColumnPropNameInRow="OutletTempSet" msprop:Generator_ColumnPropNameInTable="OutletTempSetColumn" msprop:Generator_UserColumnName="OutletTempSet" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RecipeName" msprop:Generator_ColumnVarNameInTable="columnRecipeName" msprop:Generator_ColumnPropNameInRow="RecipeName" msprop:Generator_ColumnPropNameInTable="RecipeNameColumn" msprop:Generator_UserColumnName="RecipeName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StepNumber" msprop:Generator_ColumnVarNameInTable="columnStepNumber" msprop:Generator_ColumnPropNameInRow="StepNumber" msprop:Generator_ColumnPropNameInTable="StepNumberColumn" msprop:Generator_UserColumnName="StepNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vHUMIDIFIER" msprop:Generator_TableClassName="vHUMIDIFIERDataTable" msprop:Generator_TableVarName="tablevHUMIDIFIER" msprop:Generator_TablePropName="vHUMIDIFIER" msprop:Generator_RowDeletingName="vHUMIDIFIERRowDeleting" msprop:Generator_RowChangingName="vHUMIDIFIERRowChanging" msprop:Generator_RowEvHandlerName="vHUMIDIFIERRowChangeEventHandler" msprop:Generator_RowDeletedName="vHUMIDIFIERRowDeleted" msprop:Generator_UserTableName="vHUMIDIFIER" msprop:Generator_RowChangedName="vHUMIDIFIERRowChanged" msprop:Generator_RowEvArgName="vHUMIDIFIERRowChangeEvent" msprop:Generator_RowClassName="vHUMIDIFIERRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="HUMIDIFIER_RH" msprop:Generator_ColumnVarNameInTable="columnHUMIDIFIER_RH" msprop:Generator_ColumnPropNameInRow="HUMIDIFIER_RH" msprop:Generator_ColumnPropNameInTable="HUMIDIFIER_RHColumn" msprop:Generator_UserColumnName="HUMIDIFIER_RH" type="xs:double" minOccurs="0" />
+              <xs:element name="HUMIDIFIER_TEMP" msprop:Generator_ColumnVarNameInTable="columnHUMIDIFIER_TEMP" msprop:Generator_ColumnPropNameInRow="HUMIDIFIER_TEMP" msprop:Generator_ColumnPropNameInTable="HUMIDIFIER_TEMPColumn" msprop:Generator_UserColumnName="HUMIDIFIER_TEMP" type="xs:double" minOccurs="0" />
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Audit" msprop:Generator_TableClassName="AuditDataTable" msprop:Generator_TableVarName="tableAudit" msprop:Generator_RowChangedName="AuditRowChanged" msprop:Generator_TablePropName="Audit" msprop:Generator_RowDeletingName="AuditRowDeleting" msprop:Generator_RowChangingName="AuditRowChanging" msprop:Generator_RowEvHandlerName="AuditRowChangeEventHandler" msprop:Generator_RowDeletedName="AuditRowDeleted" msprop:Generator_RowClassName="AuditRow" msprop:Generator_UserTableName="Audit" msprop:Generator_RowEvArgName="AuditRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="37" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParentID" msprop:Generator_ColumnVarNameInTable="columnParentID" msprop:Generator_ColumnPropNameInRow="ParentID" msprop:Generator_ColumnPropNameInTable="ParentIDColumn" msprop:Generator_UserColumnName="ParentID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="37" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SequenceNumber" msprop:Generator_ColumnVarNameInTable="columnSequenceNumber" msprop:Generator_ColumnPropNameInRow="SequenceNumber" msprop:Generator_ColumnPropNameInTable="SequenceNumberColumn" msprop:Generator_UserColumnName="SequenceNumber" type="xs:short" minOccurs="0" />
+              <xs:element name="ChainTime" msprop:Generator_ColumnVarNameInTable="columnChainTime" msprop:Generator_ColumnPropNameInRow="ChainTime" msprop:Generator_ColumnPropNameInTable="ChainTimeColumn" msprop:Generator_UserColumnName="ChainTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeStmp" msprop:Generator_ColumnVarNameInTable="columnTimeStmp" msprop:Generator_ColumnPropNameInRow="TimeStmp" msprop:Generator_ColumnPropNameInTable="TimeStmpColumn" msprop:Generator_UserColumnName="TimeStmp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MessageText" msprop:Generator_ColumnVarNameInTable="columnMessageText" msprop:Generator_ColumnPropNameInRow="MessageText" msprop:Generator_ColumnPropNameInTable="MessageTextColumn" msprop:Generator_UserColumnName="MessageText" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="254" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Audience" msprop:Generator_ColumnVarNameInTable="columnAudience" msprop:Generator_ColumnPropNameInRow="Audience" msprop:Generator_ColumnPropNameInTable="AudienceColumn" msprop:Generator_UserColumnName="Audience" type="xs:short" minOccurs="0" />
+              <xs:element name="Severity" msprop:Generator_ColumnVarNameInTable="columnSeverity" msprop:Generator_ColumnPropNameInRow="Severity" msprop:Generator_ColumnPropNameInTable="SeverityColumn" msprop:Generator_UserColumnName="Severity" type="xs:short" minOccurs="0" />
+              <xs:element name="Verbosity" msprop:Generator_ColumnVarNameInTable="columnVerbosity" msprop:Generator_ColumnPropNameInRow="Verbosity" msprop:Generator_ColumnPropNameInTable="VerbosityColumn" msprop:Generator_UserColumnName="Verbosity" type="xs:short" minOccurs="0" />
+              <xs:element name="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" msprop:Generator_UserColumnName="Location" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Provider" msprop:Generator_ColumnVarNameInTable="columnProvider" msprop:Generator_ColumnPropNameInRow="Provider" msprop:Generator_ColumnPropNameInTable="ProviderColumn" msprop:Generator_UserColumnName="Provider" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" msprop:Generator_UserColumnName="UserID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="38" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserFullName" msprop:Generator_ColumnVarNameInTable="columnUserFullName" msprop:Generator_ColumnPropNameInRow="UserFullName" msprop:Generator_ColumnPropNameInTable="UserFullNameColumn" msprop:Generator_UserColumnName="UserFullName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UDV_Events" msprop:Generator_TableClassName="UDV_EventsDataTable" msprop:Generator_TableVarName="tableUDV_Events" msprop:Generator_TablePropName="UDV_Events" msprop:Generator_RowDeletingName="UDV_EventsRowDeleting" msprop:Generator_RowChangingName="UDV_EventsRowChanging" msprop:Generator_RowEvHandlerName="UDV_EventsRowChangeEventHandler" msprop:Generator_RowDeletedName="UDV_EventsRowDeleted" msprop:Generator_UserTableName="UDV_Events" msprop:Generator_RowChangedName="UDV_EventsRowChanged" msprop:Generator_RowEvArgName="UDV_EventsRowChangeEvent" msprop:Generator_RowClassName="UDV_EventsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SourceName" msprop:Generator_ColumnVarNameInTable="columnSourceName" msprop:Generator_ColumnPropNameInRow="SourceName" msprop:Generator_ColumnPropNameInTable="SourceNameColumn" msprop:Generator_UserColumnName="SourceName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventTimeStamp" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnEventTimeStamp" msprop:Generator_ColumnPropNameInRow="EventTimeStamp" msprop:Generator_ColumnPropNameInTable="EventTimeStampColumn" msprop:Generator_UserColumnName="EventTimeStamp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Severity" msprop:Generator_ColumnVarNameInTable="columnSeverity" msprop:Generator_ColumnPropNameInRow="Severity" msprop:Generator_ColumnPropNameInTable="SeverityColumn" msprop:Generator_UserColumnName="Severity" type="xs:int" minOccurs="0" />
+              <xs:element name="Priority" msprop:Generator_ColumnVarNameInTable="columnPriority" msprop:Generator_ColumnPropNameInRow="Priority" msprop:Generator_ColumnPropNameInTable="PriorityColumn" msprop:Generator_UserColumnName="Priority" type="xs:int" minOccurs="0" />
+              <xs:element name="Message" msprop:Generator_ColumnVarNameInTable="columnMessage" msprop:Generator_ColumnPropNameInRow="Message" msprop:Generator_ColumnPropNameInTable="MessageColumn" msprop:Generator_UserColumnName="Message" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AlarmClass" msprop:Generator_ColumnVarNameInTable="columnAlarmClass" msprop:Generator_ColumnPropNameInRow="AlarmClass" msprop:Generator_ColumnPropNameInTable="AlarmClassColumn" msprop:Generator_UserColumnName="AlarmClass" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" msprop:Generator_UserColumnName="Active" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Acked" msprop:Generator_ColumnVarNameInTable="columnAcked" msprop:Generator_ColumnPropNameInRow="Acked" msprop:Generator_ColumnPropNameInTable="AckedColumn" msprop:Generator_UserColumnName="Acked" type="xs:boolean" minOccurs="0" />
+              <xs:element name="OperatorName" msprop:Generator_ColumnVarNameInTable="columnOperatorName" msprop:Generator_ColumnPropNameInRow="OperatorName" msprop:Generator_ColumnPropNameInTable="OperatorNameColumn" msprop:Generator_UserColumnName="OperatorName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Section_StepNo" msprop:Generator_ColumnVarNameInTable="columnSection_StepNo" msprop:Generator_ColumnPropNameInRow="Section_StepNo" msprop:Generator_ColumnPropNameInTable="Section_StepNoColumn" msprop:Generator_UserColumnName="Section_StepNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GroupPath" msprop:Generator_ColumnVarNameInTable="columnGroupPath" msprop:Generator_ColumnPropNameInRow="GroupPath" msprop:Generator_ColumnPropNameInTable="GroupPathColumn" msprop:Generator_UserColumnName="GroupPath" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="254" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="recipename" msprop:Generator_ColumnVarNameInTable="columnrecipename" msprop:Generator_ColumnPropNameInRow="recipename" msprop:Generator_ColumnPropNameInTable="recipenameColumn" msprop:Generator_UserColumnName="recipename" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchEndTime" msprop:Generator_ColumnVarNameInTable="columnBatchEndTime" msprop:Generator_ColumnPropNameInRow="BatchEndTime" msprop:Generator_ColumnPropNameInTable="BatchEndTimeColumn" msprop:Generator_UserColumnName="BatchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchStartTime" msprop:Generator_ColumnVarNameInTable="columnBatchStartTime" msprop:Generator_ColumnPropNameInRow="BatchStartTime" msprop:Generator_ColumnPropNameInTable="BatchStartTimeColumn" msprop:Generator_UserColumnName="BatchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="PDS_pageNo" msprop:Generator_ColumnVarNameInTable="columnPDS_pageNo" msprop:Generator_ColumnPropNameInRow="PDS_pageNo" msprop:Generator_ColumnPropNameInTable="PDS_pageNoColumn" msprop:Generator_UserColumnName="PDS_pageNo" type="xs:string" minOccurs="0" />
+              <xs:element name="PDS_SectionNo" msprop:Generator_ColumnVarNameInTable="columnPDS_SectionNo" msprop:Generator_ColumnPropNameInRow="PDS_SectionNo" msprop:Generator_ColumnPropNameInTable="PDS_SectionNoColumn" msprop:Generator_UserColumnName="PDS_SectionNo" type="xs:string" minOccurs="0" />
+              <xs:element name="reactorname" msprop:Generator_ColumnVarNameInTable="columnreactorname" msprop:Generator_ColumnPropNameInRow="reactorname" msprop:Generator_ColumnPropNameInTable="reactornameColumn" msprop:Generator_UserColumnName="reactorname" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="Initial_Drying_temp_set" msprop:Generator_ColumnVarNameInTable="columnInitial_Drying_temp_set" msprop:Generator_ColumnPropNameInRow="Initial_Drying_temp_set" msprop:Generator_ColumnPropNameInTable="Initial_Drying_temp_setColumn" msprop:Generator_UserColumnName="Initial_Drying_temp_set" type="xs:string" minOccurs="0" />
+              <xs:element name="Drying_Temp_set" msprop:Generator_ColumnVarNameInTable="columnDrying_Temp_set" msprop:Generator_ColumnPropNameInRow="Drying_Temp_set" msprop:Generator_ColumnPropNameInTable="Drying_Temp_setColumn" msprop:Generator_UserColumnName="Drying_Temp_set" type="xs:string" minOccurs="0" />
+              <xs:element name="Initial_Drying_vacuum_set" msprop:Generator_ColumnVarNameInTable="columnInitial_Drying_vacuum_set" msprop:Generator_ColumnPropNameInRow="Initial_Drying_vacuum_set" msprop:Generator_ColumnPropNameInTable="Initial_Drying_vacuum_setColumn" msprop:Generator_UserColumnName="Initial_Drying_vacuum_set" type="xs:string" minOccurs="0" />
+              <xs:element name="Drying_Vacuum_set" msprop:Generator_ColumnVarNameInTable="columnDrying_Vacuum_set" msprop:Generator_ColumnPropNameInRow="Drying_Vacuum_set" msprop:Generator_ColumnPropNameInTable="Drying_Vacuum_setColumn" msprop:Generator_UserColumnName="Drying_Vacuum_set" type="xs:string" minOccurs="0" />
+              <xs:element name="INITIAL_DRYING_TEMP_SET_1" msprop:Generator_ColumnVarNameInTable="columnINITIAL_DRYING_TEMP_SET_1" msprop:Generator_ColumnPropNameInRow="INITIAL_DRYING_TEMP_SET_1" msprop:Generator_ColumnPropNameInTable="INITIAL_DRYING_TEMP_SET_1Column" msprop:Generator_UserColumnName="INITIAL_DRYING_TEMP_SET_1" type="xs:string" minOccurs="0" />
+              <xs:element name="DRYING_TEMP_SET_1" msprop:Generator_ColumnVarNameInTable="columnDRYING_TEMP_SET_1" msprop:Generator_ColumnPropNameInRow="DRYING_TEMP_SET_1" msprop:Generator_ColumnPropNameInTable="DRYING_TEMP_SET_1Column" msprop:Generator_UserColumnName="DRYING_TEMP_SET_1" type="xs:string" minOccurs="0" />
+              <xs:element name="DRYING_VACUUM_SET_1" msprop:Generator_ColumnVarNameInTable="columnDRYING_VACUUM_SET_1" msprop:Generator_ColumnPropNameInRow="DRYING_VACUUM_SET_1" msprop:Generator_ColumnPropNameInTable="DRYING_VACUUM_SET_1Column" msprop:Generator_UserColumnName="DRYING_VACUUM_SET_1" type="xs:string" minOccurs="0" />
+              <xs:element name="INITIAL_DRYING_VACUUM_SET_1" msprop:Generator_ColumnVarNameInTable="columnINITIAL_DRYING_VACUUM_SET_1" msprop:Generator_ColumnPropNameInRow="INITIAL_DRYING_VACUUM_SET_1" msprop:Generator_ColumnPropNameInTable="INITIAL_DRYING_VACUUM_SET_1Column" msprop:Generator_UserColumnName="INITIAL_DRYING_VACUUM_SET_1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
